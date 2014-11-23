@@ -19,5 +19,6 @@ module.exports = {
 	start : function(port) {
 		app.listen(port);
 		console.log("Application started and listening on port " + port);
+		return app;
 	}
 }
