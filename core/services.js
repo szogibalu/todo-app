@@ -38,6 +38,6 @@ module.exports = function(app) {
 	});
 	
 	app.get('*', function(req, res) {
-		res.sendfile('./client/app/index.html'); 
+		res.sendfile('./client/application/index.html'); 
 	});
 };
