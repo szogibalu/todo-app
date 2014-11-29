@@ -29,8 +29,8 @@
     "start": "http-server -a localhost -p 8000 -c-1",
 
    "pretest": "npm install",
-   "test": "node node_modules/karma/bin/karma start client/test/unit-tests/configuration/karma.conf.js",
-   "test-single-run": "node node_modules/karma/bin/karma start client/test/unit-tests/configuration/karma.conf.js  --single-run",
+   "test": "node node_modules/karma/bin/karma start client/test/unit-tests/configuration/karma.configuration.js",
+   "test-single-run": "node node_modules/karma/bin/karma start client/test/unit-tests/configuration/karma.configuration.js  --single-run",
 
     "preupdate-webdriver": "npm install",
     "update-webdriver": "webdriver-manager update",
